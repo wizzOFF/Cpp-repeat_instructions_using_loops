@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 */
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -34,6 +34,23 @@ int main()
     } while (nbEnfants < 0);
 
     cout << "Merci d'avoir indique un nombre d'enfants correct. Vous en avez " << nbEnfants << endl;
+
+    return 0;
+}
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int compteur(0);
+
+    for (compteur = 0 ; compteur < 10 ; compteur++)
+    {
+        cout << compteur << endl;
+    }
 
     return 0;
 }
